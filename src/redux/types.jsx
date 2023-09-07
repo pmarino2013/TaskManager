@@ -6,4 +6,4 @@ export const DELETE_TASK= "DELETE_TASK";
 export const SEARCH_TASKS = "SEARCH_TASKS";
 export const UPDATE_SEARCH_TERM = 'UPDATE_SEARCH_TERM';
 
-export const URL ='http://localhost:8080'
+export const URL = "https://back-taskmanager.onrender.com"
