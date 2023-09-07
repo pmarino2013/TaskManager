@@ -11,7 +11,7 @@ const Footer = () => {
         <div className="footer-links">
           <h4>Company</h4>
           <ul className="my-list list-unstyled"> 
-          <li><Link to="/AboutUs" target="_blank">About Us</Link></li>
+          <li><Link to="/aboutUs" target="_blank">About Us</Link></li>
             <li><Link to="/contact" target="_blank">Contact</Link></li>
             <li><a href="/error404" target="_blank">Privacy Policy</a></li>
             <li><a href="/error404" target="_blank">Affiliate</a></li>
