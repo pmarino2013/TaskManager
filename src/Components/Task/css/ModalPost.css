@@ -1,0 +1,36 @@
+.d-block {
+    display: block;
+}
+
+.d-sm-none {
+    display: none;
+}
+
+.violeta {
+    color: #7d1dfa;
+    font-family: 'Merriweather Sans', sans-serif;
+    font-family: 'REM', sans-serif;
+    font-family: 'Roboto Slab', serif;
+}
+
+.backupdate {
+    background-color: #ee1621;
+    border-radius: 1rem;
+    color: black;
+    display: flex;
+    justify-content: start;
+}
+
+.titulo {
+    margin-left: 5em !;
+}
+
+@media (max-width: 500px) {
+    .responsiveModal {
+      margin-left: -20px;
+      max-width: 100%; /* Hacer que el modal ocupe el 100% del ancho */
+      height: 100%; /* Ocupar toda la altura disponible */
+    }
+  }
+  
+  

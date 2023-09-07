@@ -1,0 +1,205 @@
+@import url("https://fonts.googleapis.com/css2?family=Merriweather+Sans:wght@800&family=REM&family=Roboto+Slab:wght@600&display=swap");
+.user-task-list-container {
+    margin-top: 10em;
+    padding: 1rem;
+}
+
+.text-List {
+    font-size: 4em;
+    margin-top: -1em;
+    margin-bottom: -0.5em;
+    color: aliceblue;
+    font-family: "Merriweather Sans", "REM", "Roboto Slab", sans-serif;
+    white-space: nowrap;
+    /* Evitar el ajuste de línea */
+    overflow: hidden;
+    /* Ocultar el texto adicional */
+    text-overflow: ellipsis;
+    /* Mostrar puntos suspensivos (...) si el texto es demasiado largo */
+}
+
+@media (max-width:950px) {
+    .text-List {
+        font-size: 2.5em;
+        /* Ajusta el tamaño de fuente para dispositivos más pequeños */
+        margin-top: 0.2em !important;
+        /* Elimina el margen superior para evitar que se desplace hacia arriba */
+        margin-bottom: 0;
+        /* Elimina el margen inferior para evitar que se desplace hacia arriba */
+    }
+}
+
+@media (max-width:581px) {
+    .text-List {
+        font-size: 2.5em !important;
+        /* Ajusta el tamaño de fuente para dispositivos más pequeños */
+        margin-top: 1.5em !important;
+        /* Elimina el margen superior para evitar que se desplace hacia arriba */
+        margin-bottom: 0;
+        /* Elimina el margen inferior para evitar que se desplace hacia arriba */
+    }
+}
+
+.search-bar-container {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    margin-top: 6em;
+    margin-bottom: 1em;
+}
+
+.text-List {
+    font-size: 4em;
+    margin-top: -1em;
+    justify-content: center;
+    margin-bottom: -0.5em;
+    color: rgb(186, 191, 196) !important;
+    font-family: "Merriweather Sans", "REM", "Roboto Slab", sans-serif;
+}
+
+.search-bar-container {
+    display: flex;
+    align-items: center;
+    /* Centra verticalmente los elementos en el contenedor */
+    margin-left: 1em;
+    margin-top: 6em;
+    margin-bottom: 1em;
+}
+
+.Search-Bar {
+    height: 2.5em;
+    width: 90%;
+    /* Hace que el campo de búsqueda ocupe todo el espacio disponible */
+    font-size: 16px;
+    /* Ajusta el tamaño de la fuente */
+}
+
+.clear-button {
+    width: 4em !important;
+    color: aliceblue;
+    height: 2.4em;
+    font-size: 16px;
+    padding: 5px 10px;
+    border: none;
+    background-color: transparent;
+    margin-left: 2px;
+    font-family: 'Merriweather Sans', sans-serif;
+    font-family: 'REM', sans-serif;
+    font-family: 'Roboto Slab', serif;
+}
+
+.no-task {
+    font-family: 'Merriweather Sans', sans-serif;
+    font-family: 'REM', sans-serif;
+    font-family: 'Roboto Slab', serif;
+    color: aliceblue;
+    display: flex;
+    margin-left: 3em;
+}
+
+@media (max-width: 626px) {
+    .Search-Bar {
+        margin-top: -6em !important;
+        /* Agrega el margen superior de 2em al elemento de búsqueda */
+    }
+    .clear-button {
+        margin-top: -6em;
+    }
+    .text-List {
+        margin-top: -2em;
+    }
+    .user-task-list-container {
+        margin-top: 10em;
+        padding: 1rem;
+    }
+}
+
+.no-tasks-message {
+    display: flex;
+    color: rgb(208, 190, 209);
+    display: flex;
+    justify-content: center !important;
+    font-size: 5em;
+    white-space: nowrap;
+}
+
+.no-tasks-message1 {
+    margin-top: 3em !important;
+    display: flex;
+    color: rgb(208, 190, 209);
+    display: flex;
+    justify-content: center !important;
+    font-size: 5em;
+    white-space: nowrap;
+    margin-bottom: 1em;
+}
+
+.no-tasks-message3 {
+    margin-top: 1em !important;
+    display: flex;
+    color: rgb(208, 190, 209);
+    display: flex;
+    justify-content: center !important;
+    font-size: 5em;
+    white-space: nowrap;
+    margin-bottom: 1em;
+}
+
+
+/* Ajusta el tamaño de fuente gradualmente para pantallas más pequeñas */
+
+@media (max-width: 986px) {
+    .no-tasks-message1,
+    .no-tasks-message {
+        font-size: calc(24px - 2px * ((1000px - 986px) / (1920 - 986)));
+        /* Ajusta el tamaño de fuente con una transición suave */
+        transition: font-size 0.3s ease;
+        /* Transición suave del tamaño de fuente */
+        /* Otros estilos para los elementos de texto en pantallas medianas */
+    }
+}
+
+@media (max-width: 1000px) {
+    .no-tasks-message1,
+    .no-tasks-message {
+        font-size: 45px;
+        padding-top: 1em;
+        margin-top: -1.5em;
+        /* Tamaño de fuente más pequeño para pantallas pequeñas */
+        /* Otros estilos para los elementos de texto en pantallas pequeñas */
+    }
+}
+
+@media (max-width: 581px) {
+    .no-tasks-message1,
+    .no-tasks-message {
+        font-size: 40px;
+        padding-top: 3em;
+        margin-top: -3em;
+        /* Tamaño de fuente más pequeño para pantallas pequeñas */
+        /* Otros estilos para los elementos de texto en pantallas pequeñas */
+    }
+}
+
+@media (max-width: 450px) {
+    .no-tasks-message1,
+    .no-tasks-message {
+        font-size: 25px;
+        padding-top: 8.5em;
+        margin-top: -9em;
+        /* Tamaño de fuente más pequeño para pantallas pequeñas */
+        /* Otros estilos para los elementos de texto en pantallas pequeñas */
+    }
+}
+
+.custom-btn-group {
+    margin-top: 10px !important;
+    margin-bottom: 10px !important;
+}
+
+.custom-btn-group .btn {
+    font-size: 12px;
+    /* Ajusta el tamaño de fuente según tus preferencias */
+    padding-left: 25px !important
+    /* Espacio entre los botones */
+}

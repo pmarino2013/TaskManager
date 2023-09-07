@@ -1,0 +1,25 @@
+@import url('https://fonts.googleapis.com/css2?family=Merriweather+Sans:wght@800&family=REM&family=Roboto+Slab:wght@600&display=swap');
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0%;
+}
+
+body {
+    background-color: #101728;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    overflow-x: hidden;
+}
+
+button:active {
+    background-color: #ff5733;
+    /* Cambia el color de fondo cuando se hace clic */
+    color: #fff;
+    /* Cambia el color del texto cuando se hace clic */
+    transform: scale(0.95);
+    /* Cambia el tamaño cuando se hace clic */
+    box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+    /* Agrega una sombra cuando se hace clic */
+}

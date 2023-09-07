@@ -1,0 +1,109 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: sans-serif;
+    display: flex;
+    flex-direction: column;
+}
+
+.footer {
+    width: 100%;
+    margin-top: 2rem;
+    padding-top: 0;
+    color: rgb(218, 218, 197);
+    height: 22em;
+    border-style: solid;
+    border-width: 3px 0px 0px 0px;
+    border-color:rgb(208,52,84);
+}
+
+.footer-row {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin-top: 20px;
+    /* Cambia el valor de margin-top a 50px */
+    margin-bottom: 50px;
+}
+
+.footer-links {
+    width: 25%;
+    padding-top: 1em;
+}
+
+.footer-links h4 {
+    font-size: 20px;
+    color: beige;
+    margin-bottom: 25px;
+    font-weight: 500;
+    border-bottom: 2px solid rgb(79, 92, 129);
+    padding-bottom: 10px;
+    margin-top: -0.5em;
+}
+
+.footer-links ul li a {
+    font-size: 18px;
+    text-decoration: none;
+    color: beige;
+    display: block;
+    margin-bottom: 10px;
+    padding-top: 7px;
+    /* Reducir el valor de padding-top a 10px */
+    padding-bottom: -3px;
+    /* Reducir el valor de padding-bottom a 10px */
+    transition: all .3s ease;
+}
+
+.footer-links ul {
+    list-style: none;
+}
+
+.footer-links ul li:hover a {
+    color: beige !important;
+    padding-left: 6px;
+}
+
+.social-link a:hover {
+    background-color: beige;
+    color: rgb(40, 179, 204);
+}
+
+.social-link a {
+    display: inline-block;
+    min-height: 40px;
+    width: 40px;
+    background-color: rgb(79, 92, 129);
+    margin: 0 10px 10px 0;
+    text-align: center;
+    line-height: 40px;
+    border-radius: 60%;
+    color: beige;
+    transition: all .5s ease;
+}
+
+.footer-links .copy {
+    padding: 30px 15px;
+    display: flex;
+    text-align: center;
+    color: beige;
+    font-size: 11px;
+}
+
+.der-Res {
+    margin-top: -1.5em !important;
+    margin-left: 28em;
+}
+
+@media(max-width:991px) {
+    .footer-row {
+        text-align: center;
+    }
+    .footer-links {
+        width: 100%;
+        margin-bottom: 30px;
+    }
+}

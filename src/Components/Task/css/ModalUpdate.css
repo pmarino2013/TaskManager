@@ -1,0 +1,89 @@
+@import url('https://fonts.googleapis.com/css2?family=Merriweather+Sans:wght@800&family=REM&family=Roboto+Slab:wght@600&display=swap');
+.custom-form {
+    width: 400px;
+    /* Ajusta el tamaño según tus preferencias */
+    margin: 0 auto;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    /* Agrega sombra personalizada */
+}
+
+.modal-content {
+    background-color: rgb(26, 38, 66);
+    background-size: cover;
+    /* Ajustar el tamaño de la imagen al contenedor */
+    padding: 20px;
+    /* Añade espacio entre el contenido y los bordes */
+    border-radius: 10px;
+    margin-top: 70px;
+    font-family: 'Merriweather Sans', sans-serif;
+    font-family: 'REM', sans-serif;
+    font-family: 'Roboto Slab', serif;
+    color: white;
+}
+
+.backupdate {
+    background-color: #6a398a;
+    border-radius: 1rem;
+    text-align: center;
+    color: black;
+    display: flex;
+    justify-content: start;
+}
+
+
+/* Espaciado entre los campos */
+
+.form-group {
+    margin-bottom: 15px;
+    /* Ajusta el valor según el espaciado deseado */
+}
+
+.form-group label {
+    margin-bottom: 7px;
+    color: white;
+    font-size: 20px;
+    /* Ajusta el valor según el espaciado deseado */
+}
+
+.form-control {
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.modal-title {
+    margin: 0 auto;
+    text-align: center;
+    font-size: 30px;
+}
+
+
+/* Alinear elementos en línea y separarlos horizontalmente */
+
+.status-container {
+    display: flex;
+}
+
+.form-check {
+    margin-bottom: 15px
+    /* Ajusta el valor del margen según tus preferencias */
+}
+
+.form-check {
+    margin-left: 5px;
+    /* Ajusta el valor según el espaciado deseado */
+}
+
+.form-check-label[for="new-status-done"] {
+    margin-left: 15px;
+    color: rgb(50, 50, 203);
+}
+
+.form-check-label[for="new-status-pending"] {
+    margin-left: 8px;
+    color: rgb(50, 50, 203);
+    margin-bottom: 0.5em;
+    /* Ajusta el valor según el espaciado deseado */
+}
+
+.titulo {
+    margin-left: 1em !;
+}

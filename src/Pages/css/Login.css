@@ -1,0 +1,40 @@
+.login-form {
+    max-width: 500px;
+    margin: 0 auto;
+    margin-top: 10em !important;
+}
+
+.login-container {
+    height: 100vh;
+    display: flex;
+    align-items: center;
+}
+
+.blanco {
+    color: white;
+    font-family: 'REM', sans-serif;
+}
+
+.logIn {
+    background-image: linear-gradient(to right, #9340FF, #FF3C5F);
+    border-radius: 1rem;
+    width: 6rem;
+    height: 2.5rem;
+    color: black;
+}
+
+.img-login {
+    height: 15rem;
+    width: 20rem;
+    border-radius: 1rem;
+}
+
+.login-label {
+    font-size: 20px !important;
+    line-height: 30px !important;
+}
+
+.container-fluid {
+    margin: 0;
+    padding: 0;
+}

@@ -1,0 +1,43 @@
+@import url('https://fonts.googleapis.com/css2?family=Merriweather+Sans:wght@800&family=REM&family=Roboto+Slab:wght@600&display=swap');
+.nav {
+    background-color: #101728;
+    border-style: solid;
+    border-width: 0px 0px 3px 0px;
+    border-color: rgb(208, 52, 84);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    /* Centra verticalmente los elementos */
+    padding: 0 2rem;
+    /* Espacio alrededor del contenido */
+}
+
+Button {
+    background-image: linear-gradient(to right, #9340FF, #FF3C5F);
+}
+
+.logout-button {
+    margin-right: 1rem;
+}
+
+.new-task-button {
+    margin-right: 3rem;
+}
+
+
+/* Estilos para pantallas pequeñas (menos de 500px de ancho) */
+
+@media (max-width: 500px) {
+    .nav {
+        text-align: center;
+    }
+}
+
+.Nav-title {
+    font-size: 2.5em;
+    margin-top: -1em;
+    justify-content: center;
+    margin-bottom: -0.5em;
+    color: rgb(255, 255, 255) !important;
+    font-family: "Merriweather Sans", "REM", "Roboto Slab", sans-s
+}

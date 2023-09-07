@@ -1,0 +1,156 @@
+    @import url("https://fonts.googleapis.com/css2?family=Merriweather+Sans:wght@800&family=REM&family=Roboto+Slab:wght@600&display=swap");
+    .card-container {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 30px;
+        margin-top: 2em;
+        margin-bottom: 2em;
+    }
+    
+    .custom-task-card {
+        background-image: url("https://img.freepik.com/vector-premium/fondo-abstracto-azul-fondo-azul-sencillo_680692-48.jpg");
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+        border: 1px solid #ffffff;
+        border-radius: 8px;
+        box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
+        min-width: 300px;
+        height: 400px;
+        display: flex;
+        justify-content: flex-start;
+        /* Alinear contenido a la izquierda */
+        align-items: flex-start;
+        /* Alinear elementos a la izquierda */
+        text-align: left;
+        /* Alinear texto a la izquierda */
+        padding: 1em;
+        margin: 0.4rem;
+        font-family: "Merriweather Sans", "REM", "Roboto Slab", sans-serif;
+    }
+    
+    .custom-task-card:hover {
+        box-shadow: 6px 14px 16px 0px rgba(0, 0, 0, 0.75);
+        transition: all 400ms ease;
+        transform: translateY(-2%);
+    }
+    
+    .icon-check {
+        margin-top: 10px;
+        font-size: 40px;
+        color: #30eaa3;
+        margin-left: 0.3em;
+    }
+    
+    .icon-warning {
+        font-size: 40px;
+        margin-left: 15px;
+        color: #f7bb2e;
+    }
+    
+    .task-pending {
+        color: #f7bb2e;
+        font-size: 18px;
+        margin-left: 5px;
+        white-space: nowrap;
+    }
+    
+    .task-done {
+        color: #20d754;
+        font-size: 18px;
+        margin-left: 5px;
+        white-space: nowrap;
+    }
+    
+    .form-item {
+        font-weight: bold;
+        margin-bottom: 4px;
+        font-size: 0px !important;
+    }
+    
+    @media (max-width: 768px) {
+        .custom-task-card {
+            width: 100%;
+        }
+    }
+    
+    @media (max-width: 1248px) {
+        .custom-task-card {
+            width: 100%;
+        }
+    }
+    
+    .button-Update {
+        position: absolute;
+        bottom: 1.1em;
+        right: 6em;
+    }
+    
+    .estado {
+        margin-left: 0.8em;
+        margin-top: 0.8em;
+    }
+    
+    .state {
+        position: absolute;
+        bottom: 0.2em !important;
+        left: 0.2em;
+    }
+    
+    .card-content {
+        display: flex;
+        flex-direction: column;
+        justify-content: start;
+        align-items: center;
+        text-align: center;
+        height: 100%;
+    }
+    
+    .label-Date,
+    .label-Priority,
+    .label-Content,
+    .label-title {
+        font-size: 30px;
+        color: #f7bb2e;
+    }
+    /* A partir de 986px, agranda la tarjeta */
+    
+    @media (min-width: 986px) {
+        .custom-task-card {
+            min-width: 500px !important;
+            /* Aumenta el ancho mínimo */
+            /* Otros estilos para la tarjeta en pantallas grandes */
+        }
+    }
+    /* A medida que la pantalla se reduce, ajusta el ancho gradualmente */
+    
+    @media (max-width: 986px) {
+        .custom-task-card {
+            min-width: calc(300px + (500px - 300px) * ((100vw - 986px) / (1920 - 986))) !important;
+            /* Ajusta el ancho con una transición suave */
+            transition: min-width 0.3s ease;
+            /* Otros estilos para la tarjeta en tamaños medianos */
+        }
+    }
+    /* Estilos para pantallas de 420px o menos */
+    
+    @media (max-width: 420px) {
+        .custom-task-card {
+            /* Cambia el diseño para tamaños de pantalla más pequeños aquí */
+            flex-direction: column;
+            /* Cambia la dirección de flexbox para apilar elementos verticalmente */
+        }
+        .button-container {
+            /* Estilos para el contenedor de botones en tamaños de pantalla más pequeños */
+            display: flex;
+            flex-direction: column;
+            /* Cambia la dirección de flexbox para apilar los botones verticalmente */
+            align-items: center;
+            /* Centra los botones horizontalmente */
+        }
+        .button-Update {
+            /* Estilos para el botón "Update" en tamaños de pantalla más pequeños */
+            margin-top: 10px;
+            /* Agrega un margen superior para separar los botones */
+        }
+    }

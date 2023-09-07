@@ -1,0 +1,23 @@
+.user-list-container {
+    margin-top: 10em !important;
+    background-color: #f7f7f7;
+    /* Color de fondo del contenedor */
+    padding: 20px;
+    /* Espaciado interior */
+    border-radius: 5px;
+    /* Bordes redondeados */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    /* Sombra */
+    overflow-x: auto;
+}
+
+.delete {
+    background-color: rgb(235, 14, 14);
+    color: aliceblue;
+}
+
+.Update {
+    background-color: rgb(14, 110, 235);
+    color: aliceblue;
+}
+
