@@ -21,11 +21,11 @@ function App() {
         <Route path="/" element={<HomePage />} />
         <Route path="/login" element={<LoginPage />} />
         <Route path="/register" element={<RegisterPage />} />
-        <Route path="/TaskPage" element={<TaskPage />} />
-        <Route path="/Contact" element={<Contact />} />
+        <Route path="/taskPage" element={<TaskPage />} />
+        <Route path="/contact" element={<Contact />} />
         <Route path="/error404" element={<NotFound />} />
-        <Route path="/AdminPage" element={<AdminPage />} />
-        <Route path="/AboutUs" element={<AboutUs />} />
+        <Route path="/adminPage" element={<AdminPage />} />
+        <Route path="/aboutUs" element={<AboutUs />} />
       </Routes>
       
       <Footer />
